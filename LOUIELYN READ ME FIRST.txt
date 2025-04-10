@@ -1,0 +1,28 @@
+March 13, 2025 - BEFORE YOU ACCESS THE CODE,
+
+- To Access the project, open TetrisVs.dev (purple logo)
+
+- If your screen is empty (plain white) when opening the project, look for the project 	tabs at the left. You can see that there are tabs named Project, Classes and 	Debug.
+
+	- Press the Project tab and you can see TetrisVs (brown logo / project logo).
+	- find the main files below the logo.
+	- if the files wont automatically show up, press the "+" button beside the 			project logo.
+	- open all the files displayed. 
+
+- if none these make sense to you, you're cooked.
+
+
+if there are errors about the music,
+- In the menu strip, go to Project then look for Project Options.
+- go to "Parameters" tab then look for the "Linker: " box.
+- click the box and type: -lwinmm
+- click ok then compile and run the program.
+
+
+Anyway, transfer all of your progress in tetris.c and feel free ask me any questions regarding this project.
+
+Also, there will be a point in this project that gpt cant help us in the later stages.
+
+
+
+-Milky45
