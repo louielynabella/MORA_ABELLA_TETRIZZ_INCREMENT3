@@ -130,6 +130,7 @@ void printTETRIZ()
     gotoxy(103+ cx, 10); setColor(BG_WHITE); printf("          "); setColor(0);
 }
 
+
 int main(int argc, char *argv[]) 
 {
 	char press;
@@ -144,6 +145,10 @@ int main(int argc, char *argv[])
     printf("Press any key to continue...");
     
     _getch(); // Waits for any key press
+    gotoxy(46,20);
+    setColor(7);
+    printf("                             ");
+    
     game();   // Proceed to game after key press
 	return 0;
 }
